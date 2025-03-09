@@ -9,7 +9,7 @@ A script that automates daily mining on the Rubi app, eliminating the need for m
 ✅ Runs in the background  
 ✅ Supports multiple account   
 ✅ Lightweight & easy to use  
-
+✅ Saves access tokens and refresh tokens for re-login without needing username and password after the first login
 
 ## Installation  
 
@@ -45,6 +45,22 @@ A script that automates daily mining on the Rubi app, eliminating the need for m
 ```
    python miner.py
 ```
+
+## Before Running the Script  
+Before you run the script, add your accounts to `accounts.txt`. Each account should be listed on a new line in the following format:
+```
+username|password
+username1|password1
+username2|password2
+```
+The script will automatically use the credentials from `accounts.txt` for the initial login attempt.
+
+## How It Works After First Login  
+After the first login attempt, the script will save the **access_token** and **refresh_token** in an `accounts.json` file. 
+
+- On subsequent runs, it will use the **access_token** and **refresh_token** from `accounts.json` instead of the username and password, bypassing the login process.
+- The script will automatically **refresh the tokens** when needed and dynamically update the `accounts.json` file with the latest tokens.
+
 
 ## If You Are Not Registered On The Rubi App  
 If you haven't registered on the Rubi app yet, follow these steps:  
