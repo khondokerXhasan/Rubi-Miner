@@ -7,7 +7,7 @@ A script that automates daily mining on the Rubi app, eliminating the need for m
 ✅ Automates daily mining  
 ✅ Works on Android (Termux) & Windows  
 ✅ Runs in the background  
-✅ Supports multiple account
+✅ Supports multiple account   
 ✅ Lightweight & easy to use  
 
 
