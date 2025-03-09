@@ -284,6 +284,7 @@ def _0x41bf4e9d():
                 except Exception as e:
                     print(f'[!] Error for {_0xb32f402c}: {str(e)}')
                 _0x25c12759.sleep(3)
+                print('-'*50)
             sleep = _0xab77bcc9 + _0xb3c387c0.randint(120, 300)
             print()
             _0xfd8277ad(sleep)
