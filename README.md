@@ -69,6 +69,8 @@ The script supports **SOCKS** and **HTTP** proxies.
 ```
 http://proxy_ip:port
 socks5://proxy_ip:port
+http://user1:pass1@10.0.0.1:1080
+socks5://user1:pass1@10.0.0.1:1080
 ```
 - If no proxy is provided, the script will continue running **without a proxy**.  
 
@@ -77,6 +79,9 @@ If you haven't registered on the Rubi app yet, follow these steps:
 1. Download the app from the Play Store: [Rubi App on Play Store](https://play.google.com/store/apps/details?id=com.nemoholding.android.rubi)  
 2. When signing up, **use the referral code**: `KHONDOKER2` (this is a must).
 
+## Contact  
+If you need help or have any questions, you can contact me on Telegram:  
+[Telegram](https://t.me/scripts_hub)  
 
 ## Disclaimer  
 This script is for educational purposes only. Automating app interactions may violate the app's Terms of Service, which could result in account bans. Use at your own risk.  
@@ -84,3 +89,5 @@ This script is for educational purposes only. Automating app interactions may vi
 
 ## License  
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
