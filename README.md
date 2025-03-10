@@ -10,6 +10,7 @@ A script that automates daily mining on the Rubi app, eliminating the need for m
 ✅ Supports multiple account   
 ✅ Lightweight & easy to use  
 ✅ Saves access tokens and refresh tokens for re-login without needing username and password after the first login
+✅ Supports **SOCKS** and **HTTP** proxies  
 
 ## Installation  
 
@@ -61,6 +62,15 @@ After the first login attempt, the script will save the **access_token** and **r
 - On subsequent runs, it will use the **access_token** and **refresh_token** from `accounts.json` instead of the username and password, bypassing the login process.
 - The script will automatically **refresh the tokens** when needed and dynamically update the `accounts.json` file with the latest tokens.
 
+### Proxy Support (Optional)  
+The script supports **SOCKS** and **HTTP** proxies.  
+
+- To use proxies, add them to the `proxies.txt` file, each on a new line in the following format:
+```
+http://proxy_ip:port
+socks5://proxy_ip:port
+```
+- If no proxy is provided, the script will continue running **without a proxy**.  
 
 ## If You Are Not Registered On The Rubi App  
 If you haven't registered on the Rubi app yet, follow these steps:  
