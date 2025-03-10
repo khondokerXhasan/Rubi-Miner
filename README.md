@@ -9,7 +9,7 @@ A script that automates daily mining on the Rubi app, eliminating the need for m
 ✅ Runs in the background  
 ✅ Supports multiple account   
 ✅ Lightweight & easy to use  
-✅ Saves access tokens and refresh tokens for re-login without needing username and password after the first login
+✅ Saves access tokens and refresh tokens for re-login without needing username and password after the first login     	
 ✅ Supports **SOCKS** and **HTTP** proxies  
 
 ## Installation  
