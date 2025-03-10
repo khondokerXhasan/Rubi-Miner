@@ -3,13 +3,13 @@
 A script that automates daily mining on the Rubi app, eliminating the need for manual clicks. It supports both Android (via Termux) and Windows.
 
 
-## Features
+## Features  
 ✅ Automates daily mining  
 ✅ Works on Android (Termux) & Windows  
 ✅ Runs in the background  
 ✅ Supports multiple account   
 ✅ Lightweight & easy to use  
-✅ Saves access tokens and refresh tokens for re-login without needing username and password after the first login     	
+✅ Saves access tokens and refresh tokens for re-login without needing username and password after the first login  
 ✅ Supports **SOCKS** and **HTTP** proxies  
 
 ## Installation  
