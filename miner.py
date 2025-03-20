@@ -276,16 +276,21 @@ def _0xc97c151a():
     print('\n    ╔════════════════════════════════════════════╗\n    ║                                            ║\n    ║               RUBI AUTO MINER              ║\n    ║         By Github: khondokerXhasan         ║\n    ║                                            ║\n    ╚════════════════════════════════════════════╝\n    ')
 
 def _0x2279e98b(_0x58d691b8):
-    while _0x58d691b8 > 0:
-        _0x1159c209 = _0x58d691b8 // 3600
-        _0x103893a8 = _0x58d691b8 % 3600 // 60
-        _0x5390f478 = _0x58d691b8 % 60
-        _0x9863d2ff = f'\r[~] Sleeping: {_0x1159c209:02d}:{_0x103893a8:02d}:{_0x5390f478:02d} remaining'
-        _0xdbd001f3.stdout.write(_0x9863d2ff)
+    _0x58bc91b8 = _0x363825b4.time()
+    _0x58cb91b8 = _0x58bc91b8 + _0x58d691b8
+    
+    while _0x363825b4.time() < _0x58cb91b8:
+        _0x58cbb1b8 = int(_0x58cb91b8 - _0x363825b4.time())
+        if _0x58cbb1b8 <= 0:
+            break
+        _0x11cbb1b8 = _0x58cbb1b8 // 3600
+        _0x22cbb1b8 = (_0x58cbb1b8 % 3600) // 60
+        _0x33cbb1b8 = _0x58cbb1b8 % 60
+        _0x44cbb1b8 = f"\r[~] Sleeping: {_0x11cbb1b8:02d}:{_0x22cbb1b8:02d}:{_0x33cbb1b8:02d} remaining"
+        _0xdbd001f3.stdout.write(_0x44cbb1b8)
         _0xdbd001f3.stdout.flush()
         _0x363825b4.sleep(1)
-        _0x58d691b8 -= 1
-    _0xdbd001f3.stdout.write('\r[~] Sleep complete!                \n')
+    _0xdbd001f3.stdout.write("\r[~] Sleep complete!                \n")
     _0xdbd001f3.stdout.flush()
 
 def _0xd463c024():
